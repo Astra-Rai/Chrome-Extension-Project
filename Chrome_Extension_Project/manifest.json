@@ -1,0 +1,15 @@
+{
+"manifest_version": 2,
+    "name": "Chrome Extension Project: Word Replacers",
+    "description": "Free Google Chrome extensions that changes intances of 'ex-cons' to 'person with justice system involvement' ",
+    "version": "0.1",
+    "content_scripts": [
+        {
+            "matches": [
+               "<all_urls>"
+            ],
+            "js":
+                ["content.js"] 
+        }
+    ]
+}
